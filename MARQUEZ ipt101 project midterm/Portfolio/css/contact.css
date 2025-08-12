@@ -1,0 +1,8 @@
+.contact form{max-width:700px;display:flex;flex-direction:column;gap:.75rem}
+.contact label{font-weight:600}
+.contact input,.contact textarea{padding:.6rem;border:1px solid #d1d5db;border-radius:6px}
+.contact input:focus,.contact textarea:focus{outline:none;box-shadow:0 0 0 3px rgba(37,99,235,0.12)}
+.char-row{display:flex;justify-content:space-between;align-items:center}
+#submitBtn{padding:.5rem .85rem;border-radius:6px;border:0;background:var(--primary);color:#fff}
+.save-note{font-size:.9rem;color:var(--muted);margin-top:.5rem}
+body.dark .contact input, body.dark .contact textarea{background:#071029;color:var(--text-dark);border:1px solid #1f2937}
